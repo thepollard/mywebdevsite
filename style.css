@@ -1,6 +1,13 @@
 html {
     height: 100%;
 }
+#myPicture {
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
 .topBar {
     text-align: center;
     margin: 0 0 10px 0;
@@ -16,7 +23,7 @@ button {
     padding-left: 5px;
     padding-right: 5px;
     background-color: #555555;
-    border-radius: 6px;
+    border-radius: 6px 0 6px 0;
     font-size: 14px;
     transition-duration: 0.4s;
     text-shadow: 1px 2px 5px red;
@@ -29,4 +36,10 @@ button:hover {
 a:link, a:visited {
     text-decoration: none;
     color: white;
+}
+h1 {
+    clear: left;
+    <! border: solid 2px gray;>
+    margin: 15px 0 0 0;
+    padding: 10px 0 0 0;
 }
